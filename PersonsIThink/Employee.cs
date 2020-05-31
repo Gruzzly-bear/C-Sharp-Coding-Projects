@@ -4,8 +4,9 @@ using System.Text;
 
 namespace PersonsIThink
 {
-    class Employee : Person
+    public class Employee : Person
     {
         int Id = 44578;
     }
+
 }

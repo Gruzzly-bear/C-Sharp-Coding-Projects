@@ -13,19 +13,23 @@ namespace ConsoleApp1
 
 
         }
-        public bool Boop(int intOne2, int intTwo)
+        public bool Boop(int intOne2, int intTwo, out bool done)
         {
-            if ( intOne2 > intTwo)
-            {
+            
+
+                if (intOne2 > intTwo)
+                {
+                done = true;
                 return true;
-            }
+                }
 
-            else
-            {
-                return false;
-            }
+                else
+                {
+                done = false;
+                    return false;
+                }
 
-
+            
 
         }
 

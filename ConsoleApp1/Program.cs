@@ -16,7 +16,9 @@ namespace ConsoleApp1
             int intOne2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter another number! if it is less than the last entered number!");
             int intTwo = Convert.ToInt32(Console.ReadLine());
-            bool flooop = blip.Boop(intOne2, intTwo);
+            bool done = false;
+            bool flooop = blip.Boop(intOne2, intTwo, out done);
+            
             Console.WriteLine(flooop);
             Console.ReadLine();
         }
