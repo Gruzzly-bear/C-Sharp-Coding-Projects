@@ -4,15 +4,21 @@ using System.Text;
 
 namespace PersonsIThink
 {
-    class Overload
+    class OVerload
     {
-        public static bool operator ==(Employee employee, Person person)
+        public static bool operator ==(Employee employee1, Employee employee2)
         {
-            return true;
+            if (employee1.Id == employee2.Id)
+            {
+                return true;
+            }
         }
-        public static bool operator !=(Employee employee, Person person)
+        public static bool operator !=(Employee employee1, Employee employee2)
         {
-            return Employee.Id == person.Id;
+            if (employee1.Id != employee2.id);
+            {
+                return false;
+            }
         }
     }
 }
