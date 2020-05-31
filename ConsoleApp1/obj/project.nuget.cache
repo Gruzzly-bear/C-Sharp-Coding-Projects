@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "k+1SVLIsEb0mPHcbWnpx7iuA5nxhDeW2x9EvuFeO8VlmoJezQSLesKeDEZ0m76wtHRlBblRgYacaLk/aTYk4aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
