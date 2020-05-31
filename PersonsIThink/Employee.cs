@@ -7,6 +7,7 @@ namespace PersonsIThink
     public class Employee : Person
     {
         int Id = 44578;
+        
     }
 
 }
