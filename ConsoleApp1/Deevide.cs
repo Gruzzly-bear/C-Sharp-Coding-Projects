@@ -13,10 +13,20 @@ namespace ConsoleApp1
 
 
         }
-        static double Boop(double intOne)
+        public bool Boop(int intOne2, int intTwo)
         {
-            double flop = intOne + .15;
-            return (double)flop;
+            if ( intOne2 > intTwo)
+            {
+                return true;
+            }
+
+            else
+            {
+                return false;
+            }
+
+
+
         }
 
     }
