@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Channels;
 
 namespace PersonsIThink
 {
@@ -8,28 +9,31 @@ namespace PersonsIThink
     {
         public static bool operator ==(Employee Employee1, Employee Employee2)
         {
-            
-            if (Employee1.Id == Employee2.Id)
+            var wat = Employee1.Id == Employee2.Id;
+            var boop = Employee1.Id != Employee2.Id;
+            if (wat == true)
             {
 
-                return true;
+                return wat;
             }
             else
             {
-                return false;
+                return boop;
             }
             
         }
             
         public static bool operator !=(Employee Employee1, Employee Employee2)
         {
-            if (Employee1.Id != Employee2.Id) 
+            var wat = Employee1.Id == Employee2.Id;
+            var boop = Employee1.Id != Employee2.Id;
+            if (wat == false) 
             {
-                return false;
+                return boop;
             }
             else
             {
-                return true;
+                return wat;
             }
         }
     }
