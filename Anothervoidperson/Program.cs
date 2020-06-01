@@ -10,6 +10,7 @@ namespace Anothervoidperson
     {
         static void Main(string[] args)
         {
+            
             Employee<string> strang = new Employee<string>();
             Employee<int> ant = new Employee<int>();
             ant.Things.Add(4);
