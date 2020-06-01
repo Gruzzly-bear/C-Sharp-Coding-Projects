@@ -18,6 +18,7 @@ namespace PersonsIThink
             {
                 Console.WriteLine(Employee1 + "and" + Employee2 + "DO NOT MATCH");
             }
+            
         }
             
         public static Employee operator !=(Employee Employee1, Employee Employee2)
