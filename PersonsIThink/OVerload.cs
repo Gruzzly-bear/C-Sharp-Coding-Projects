@@ -6,16 +6,16 @@ namespace PersonsIThink
 {
     class OVerload
     {
-        public static Employee operator ==(Employee employee1, Employee employee2)
+        public static Employee operator ==(Employee Employee1, Employee Employee2)
         {
-            if (employee1.Id == employee2.Id)
+            if (Employee1.Id == Employee2.Id)
             {
                 Console.WriteLine("They match!");
             }
         }
-        public static Employee operator !=(Employee employee1, Employee employee2)
+        public static Employee operator !=(Employee Employee1, Employee Employee2)
         {
-            if (employee1.Id != employee2.Id) 
+            if (Employee1.Id != Employee2.Id) 
             {
                 Console.WriteLine("They DO NOT match!");
             }
