@@ -6,30 +6,30 @@ namespace PersonsIThink
 {
     class OVerload
     {
-        public static Employee operator ==(Employee Employee1, Employee Employee2)
+        public static bool operator ==(Employee Employee1, Employee Employee2)
         {
             
             if (Employee1.Id == Employee2.Id)
             {
 
-                Console.WriteLine(Employee1 + "and" + Employee2 + "They match!");
+                return true;
             }
             else
             {
-                Console.WriteLine(Employee1 + "and" + Employee2 + "DO NOT MATCH");
+                return false;
             }
             
         }
             
-        public static Employee operator !=(Employee Employee1, Employee Employee2)
+        public static bool operator !=(Employee Employee1, Employee Employee2)
         {
             if (Employee1.Id != Employee2.Id) 
             {
-                Console.WriteLine("They DO NOT match!");
+                return false;
             }
             else
             {
-                Console.WriteLine("They match!");
+                return true;
             }
         }
     }

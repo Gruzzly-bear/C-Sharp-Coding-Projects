@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace Anothervoidperson
 {
@@ -7,13 +9,17 @@ namespace Anothervoidperson
     {
         static void Main(string[] args)
         {
-            Employee placeHolder = new Employee();
-            IQuittable quits = new Employee();
-            quits.Quit();
+            Employee<string> strang = new Employee<string>();
+            Employee<int> ant = new Employee<int>();
 
-            placeHolder.firstName = "Sample";
-            placeHolder.lastName = "Student";
-            placeHolder.SayName();
+            
+            ant.Add(4, 3, 2);
+            // IQuittable quits = new Employee();
+            // quits.Quit();
+
+            //placeHolder.firstName = "Sample";
+           //placeHolder.lastName = "Student";
+            //placeHolder.SayName();
         
 
         }
