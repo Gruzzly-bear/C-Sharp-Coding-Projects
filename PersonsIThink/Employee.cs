@@ -6,8 +6,9 @@ namespace PersonsIThink
 {
     public class Employee : Person
     {
-        int Id = 44578;
-        
+        public int Id = 44578; 
+
+       
     }
 
 }
