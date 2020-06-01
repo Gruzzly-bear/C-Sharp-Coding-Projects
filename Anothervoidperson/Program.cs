@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+
 using System.Runtime.InteropServices.ComTypes;
 
 namespace Anothervoidperson
@@ -11,9 +12,14 @@ namespace Anothervoidperson
         {
             Employee<string> strang = new Employee<string>();
             Employee<int> ant = new Employee<int>();
-
+            ant.ADD(4);
+            strang.Add("Dog");
             
-            ant.Add(4, 3, 2);
+            
+            
+            
+            Console.ReadLine();
+           
             // IQuittable quits = new Employee();
             // quits.Quit();
 
