@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Anothervoidperson
+namespace Generic
 {
 
     class Program
@@ -43,26 +43,7 @@ namespace Anothervoidperson
                 Console.WriteLine(Id);
             }
             Console.ReadLine();
-            //string myString = "Joe";
-            //string element = "";
-            //for (int i = 0; i < FirstName.FirstName.Count; i++)
-            //{
-            //    if (FirstName.FirstName[i].Contains(myString))
-            //        element = FirstName.FirstName[i];
-            //    Console.WriteLine(element);
-            //}
-            //Console.WriteLine("LAMBDA TIME!!!?!!!!!");
-            //Console.ReadLine();
-            //var newList = FirstName.FirstName.Where(x => x.Contains(myString)).ToList();
-            //Console.WriteLine(newList);
-            //var newList2 = Id.Id.Where(xx => xx > 5).ToList();
-            //Console.WriteLine(newList2);
-            //Console.WriteLine("Here are the Strings in the newly added list.");
-            //foreach (object o in FirstName.Things)
-            //{
 
-            //}
-            Console.ReadLine();
 
 
 

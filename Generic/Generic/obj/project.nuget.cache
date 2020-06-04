@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KgFuh+rqlFWKDneJu5Mt60mDwSkjfnU+4h2JNgY/u/VmHjU4mCWWTMrX+Do+XgxuVrtN9A+uAjxwhOHJlU6Rhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\Generic\\Generic\\Generic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Anothervoidperson
+namespace Generic
 {
     public class Employee<T>
     {
-        public List<T> Things { get; set; } 
+        public List<T> Things { get; set; }
     }
 }
