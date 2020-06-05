@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "k3/1H2mB+KRUWfK1b7AOiCOJgROsz39qi3Lyhmr4NB+jAkc2jxyhvZ6mf2RTUqfrz7LheRhClZqTtuHZ6jtPHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\NewListEmp\\NewListEmp\\NewListEmp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

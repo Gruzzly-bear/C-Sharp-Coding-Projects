@@ -1,0 +1,13 @@
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\bin\Debug\netcoreapp3.1\NewListEmp.exe
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\bin\Debug\netcoreapp3.1\NewListEmp.deps.json
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\bin\Debug\netcoreapp3.1\NewListEmp.runtimeconfig.json
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\bin\Debug\netcoreapp3.1\NewListEmp.runtimeconfig.dev.json
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\bin\Debug\netcoreapp3.1\NewListEmp.dll
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\bin\Debug\netcoreapp3.1\NewListEmp.pdb
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.csprojAssemblyReference.cache
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.AssemblyInfoInputs.cache
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.AssemblyInfo.cs
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.csproj.CoreCompileInputs.cache
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.dll
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.pdb
+C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-C-Sharp-Coding-Projects\NewListEmp\NewListEmp\obj\Debug\netcoreapp3.1\NewListEmp.genruntimeconfig.cache
