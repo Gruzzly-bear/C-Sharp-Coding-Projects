@@ -43,25 +43,37 @@ namespace Anothervoidperson
                 Console.WriteLine(Id);
             }
             Console.ReadLine();
-            //string myString = "Joe";
-            //string element = "";
-            //for (int i = 0; i < FirstName.FirstName.Count; i++)
-            //{
-            //    if (FirstName.FirstName[i].Contains(myString))
-            //        element = FirstName.FirstName[i];
-            //    Console.WriteLine(element);
-            //}
-            //Console.WriteLine("LAMBDA TIME!!!?!!!!!");
-            //Console.ReadLine();
-            //var newList = FirstName.FirstName.Where(x => x.Contains(myString)).ToList();
-            //Console.WriteLine(newList);
-            //var newList2 = Id.Id.Where(xx => xx > 5).ToList();
-            //Console.WriteLine(newList2);
-            //Console.WriteLine("Here are the Strings in the newly added list.");
-            //foreach (object o in FirstName.Things)
-            //{
+            string myString = "Joe";
+            string element = "";
+            for (int i = 0; i < FirstName.Things.Count; i++)
+            {
+                if (FirstName.Things[i].Contains(myString))
+                    element = FirstName.Things[i];
+                Console.WriteLine(element);
+            }
 
-            //}
+
+            Employee<string> joesies = new Employee<string>();
+            foreach (string Joe in FirstName.Things)
+                                               
+            {
+                if (Joe == "Joe")
+                {
+                    joesies.Things.Add(Joe);
+                    Console.WriteLine(joesies);
+                }
+            }
+            Console.WriteLine("LAMBDA TIME!!!?!!!!!");
+            Console.ReadLine();
+            var newList = FirstName.Things.Where(x => x.Contains(myString)).ToList();
+            Console.WriteLine(newList);
+            var newList2 = empId.Things.Where(xx => xx > 5).ToList();
+            Console.WriteLine(newList2);
+            Console.WriteLine("Here are the Strings in the newly added list.");
+            foreach (object o in FirstName.Things)
+            {
+
+            }
             Console.ReadLine();
 
 
