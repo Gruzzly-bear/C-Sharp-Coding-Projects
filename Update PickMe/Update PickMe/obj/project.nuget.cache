@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ghYrEPyuE+iQn8ZelOzIqAHKOCXjR7m25l3X6QRj6w0Z9MI8iJDLhGjVbhrKqL0jY8hg5eQ5iGFI+0du4cKu4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\Update PickMe\\Update PickMe\\Update PickMe.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
