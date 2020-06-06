@@ -41,12 +41,12 @@ namespace Update_PickMe
 
 
 
-			if (cho2 > arrayInt.Length)
+			if (cho2 >= arrayInt.Length)
 			{
 				Console.WriteLine("That number does not exist in this array. Good Bye");
 
 			}
-			if (cho2 > 9 & cho2 < 11)
+			else if (cho2 > 9 & cho2 < 11)
 			{
 				Console.WriteLine("You sneaky pete! You found the hidden numbers!");
 				Console.WriteLine(stringArray[cho2]);
@@ -60,7 +60,7 @@ namespace Update_PickMe
 			Console.WriteLine("We will now proceed onto the next excercise.");
 			Console.ReadLine();
 
-			IList<string> strList = new List<string>
+			List<string> strList = new List<string>
 			{
 				"This world is Crazy",
 				"What does it mean to be Human?",
