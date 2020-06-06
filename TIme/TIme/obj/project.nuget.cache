@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MDu6Lw28uWr0Ov9N3Lg+Vot8amku/3pc94PcdD0xEdE78dfWbwHqTIs+cDACiz7AvxL1eUy/uj83tJxcZB24KQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\TIme\\TIme\\TIme.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
