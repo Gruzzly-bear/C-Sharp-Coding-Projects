@@ -12,6 +12,7 @@ namespace IO
             using (StreamWriter file = new StreamWriter(@"C:\The-Tech-Academy-C-Sharp-Coding-Projects\IO\input.txt"))
             {
                 file.WriteLine(inputOne);
+                file.Close();
                 string text = File.ReadAllText(@"C:\The-Tech-Academy-C-Sharp-Coding-Projects\IO\input.txt");
                 Console.WriteLine("You have entered " + text);
             }
