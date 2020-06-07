@@ -14,8 +14,6 @@ namespace Age_Exception
         }
         static void Main()
         {
-
-
             int inputAge;
             try
             {
@@ -25,9 +23,9 @@ namespace Age_Exception
                 {
                     throw new AgeException();
                 }
-                var today = DateTime.Now;
-                var ageYear = today.Year - inputAge;
-                Console.WriteLine("You were born in " + ageYear);
+                var presentYear = DateTime.Now;
+                var ageYear = presentYear.Year - inputAge;
+                Console.WriteLine("You are " + inputAge + " and you were born in " + ageYear + "!");
             }
             catch (FormatException)
             {
