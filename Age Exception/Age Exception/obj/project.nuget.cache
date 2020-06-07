@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U7YZrDFYAAULSoK358wkBH6eCHCCCGbVtPP38Ivkm4U4DSpfyENCXJhU75MrfQ5oJwhKx0nrDHOPgxC7pdataw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\Age Exception\\Age Exception\\Age Exception.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
