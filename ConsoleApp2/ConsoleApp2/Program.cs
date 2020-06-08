@@ -20,7 +20,7 @@ namespace ConsoleApp2
             Fname fname = new Fname();
             Fname newFname = new Fname("World Boss");
             Console.WriteLine("Please enter your name!");
-            string name1 = Console.ReadLine();
+            var name1 = Console.ReadLine();
             Fname fname1 = new Fname(name1);
             Console.WriteLine("Your name is " + fname1.inputName1 + " and your starting health is " + fname1.inputHealth1  );
             Console.ReadLine();
