@@ -12,16 +12,19 @@ namespace ConsoleApp2
         {
             static void Main(string[] args)
             {
+
+
+
+
+
             Fname fname = new Fname();
             Fname newFname = new Fname("World Boss");
             Console.WriteLine("Please enter your name!");
-            var firstName = Console.ReadLine();
-            Console.WriteLine("Please enter your starting health!");
-            var inputHealth = Convert.ToInt32(Console.ReadLine());
-            fname.inputHealth = inputHealth;
-            Console.WriteLine("Your name is " + firstName + " and your starting health is " + fname.inputHealth );
+            string name1 = Console.ReadLine();
+            Fname fname1 = new Fname(name1);
+            Console.WriteLine("Your name is " + fname1.inputName1 + " and your starting health is " + fname1.inputHealth1  );
             Console.ReadLine();
-            Console.WriteLine(" You will battle " + newFname.inputName + " whose health is at " + newFname.inputHealth);
+
 
 
 

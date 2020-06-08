@@ -15,11 +15,12 @@ namespace Constructors
         }
         public Fname(string inputName, int inputHealth)
         {
-            
+            inputName1 = inputName;
+            inputHealth1 = inputHealth;
         }
         public Fname() { }
-        public string inputName { get; set; }
-        public int inputHealth { get; set; }
+        public string inputName1 { get; set; }
+        public int inputHealth1 { get; set; }
 
 
 
