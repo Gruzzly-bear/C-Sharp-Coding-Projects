@@ -4,47 +4,51 @@
 @using (Html.BeginForm("TheirInsuranceQuote", "Home", FormMethod.Post, new { id = "signupform" }))
 {
     <h1><b>Get your quote now!</b></h1>
-    <form submit="/insranceQuotePost" method="post">
-        <div class="col-auto">
-            <br />
-            <div class="form-group col-md-12">
-                <input class="form-control" name="firstName" type="text" placeholder="First Name" />
+    <div class="form-horizontal">
+        <form submit="/insranceQuotePost" method="post">
+            <div class="col-auto">
+                <br />
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="firstName" type="text" placeholder="First Name" /> @*User will input their first name here*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="lastName" type="text" placeholder="Last Name" /> @*User inputs last name*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="emailAddress" type="email" placeholder="Email" /> @*User inputs Email*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="dateOfBirth" type="datetime" placeholder="DOB" /> @*User inputs DOB*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="carYear" type="number" placeholder="Year" /> @*Inputs year of car*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="carMake" type="text" placeholder="Make" /> @*Inputs the make of the car*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="carModel" type="text" placeholder="Model" /> @*Inputs the model of the car*@
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="cars">Dui?</label>
+                    <select name="dui" class=" form-control"> @*Here, they have a drop down option to select whether or not if they have had a DUI.*@
+                        <option value="true">Yes</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="speedingTickets" type="number" placeholder="Number of Tickets" /> @*There are selector arrows here, was going to use drop down but it didn't want to work right for me.'*@
+                </div>
+                <div class="form-group col-md-12">
+                    <input class="form-control" name="coverageType" type="text" placeholder="Full or Liability Coverage" /> @*Also had this set as a drop down but couldn't get it to input correctly.*@
+                </div>
+                <button type="submit" class="btn btn-info">Get Quote</button> @*"Submits their info and redirects them to the quote page"*@
             </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="lastName" type="text" placeholder="Last Name" />
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="emailAddress" type="email" placeholder="Email" />
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="dateOfBirth" type="datetime" placeholder="DOB" />
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="carYear" type="number" placeholder="Year" />
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="carMake" type="text" placeholder="Make" />
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="carModel" type="text" placeholder="Model" />
-            </div>
-            <div class="form-group col-md-12">
-                <label for="cars">Dui?</label>
-                <select name="dui" class=" form-control">
-                    <option value="true">Yes</option>
-                    <option value="false">No</option>
-                </select>
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="speedingTickets" type="number" placeholder="Number of Tickets" />
-            </div>
-            <div class="form-group col-md-12">
-                <input class="form-control" name="coverageType" type="text" placeholder="Full or Liability Coverage" />
-            </div>
-                <button type="submit" class="btn btn-info">Get Quote</button>
-            </div>
-    </form>
+        </form>
+    </div>
+    <br/>
+    <br/>
+  
+        <a href="../Admin/Index" class="btn btn-danger" role="button">Admin</a> @*Added an admin button for conveniance for you. Not sure if you guys run it or just look at code.*@
 
-    <a href="../Admin/Index" class="btn btn-danger" role="button">Admin</a>
-
-}
+        }
