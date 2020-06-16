@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q5UOv3ppSgLIk+PBidMKaPa5Ap++fhGu3+LvlPNvWMrtJE1y4EyfhWx718uy5aIMBhoS/ESs56gXIn5bTIhi1Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faceb\\Documents\\GitHub\\The-Tech-Academy-C-Sharp-Coding-Projects\\WebApplication2\\WebApplication2\\WebApplication2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faceb\\.nuget\\packages\\knockoutjs\\3.5.1\\knockoutjs.3.5.1.nupkg.sha512",
+    "C:\\Users\\Faceb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
