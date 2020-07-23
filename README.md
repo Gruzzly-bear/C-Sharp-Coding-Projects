@@ -60,6 +60,41 @@ This repository houses a load of test code I have worked on throughout my journe
                  
                 }
 ```
+
+### MVC code first DB
+#### Favorite Superhero
+[Favorite Super](https://github.com/Gruzzly-bear/C-Sharp-Coding-Projects/tree/master/Fav_super)
+
+##### POST person
+
+
+``` c#
+public ActionResult Create([Bind(Include = "ID,LastName,FirstName,RatingDate")] Person person)
+        {
+            if (ModelState.IsValid)
+            {
+                db.People.Add(person);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(person);
+        }
+```
+
+
+##### POST person delete
+
+```         [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Person person = db.People.Find(id);
+            db.People.Remove(person);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+```
 ### Contact and links
 - [Github](https://github.com/Gruzzly-bear)
 - [Email](mailto:MB.Bowen@outlook.com?subject=Hey%20There!)
