@@ -28,7 +28,38 @@ This repository houses a load of test code I have worked on throughout my journe
 
         }
 ```
+##### Dealer's Hand 
 
+``` c#
+        public void Deal(List<Card> Hand)
+        {
+            Hand.Add(Deck.Cards.First());
+            string card = string.Format(Deck.Cards.First().ToString() + "\n"); 
+            Console.WriteLine(card);
+            using (StreamWriter file = new StreamWriter(@"C:\Users\Faceb\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\TwentyOne\cardLog.txt", true))
+            {
+                file.WriteLine(DateTime.Now);
+                file.WriteLine(card);
+            }
+            Deck.Cards.RemoveAt(0);
+        }
+```
+
+##### Catching cheaters
+
+``` c#
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Place your bet");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only. No decimals.");
+                }
+                if (bet < 0)
+                {
+                    throw new FraudException("Security! Kick this person out!");
+                 
+                }
+```
 ### Contact and links
 - [Github](https://github.com/Gruzzly-bear)
 - [Email](mailto:MB.Bowen@outlook.com?subject=Hey%20There!)
