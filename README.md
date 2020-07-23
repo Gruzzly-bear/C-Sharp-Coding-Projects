@@ -63,7 +63,7 @@ This repository houses a load of test code I have worked on throughout my journe
 
 ### MVC code first DB
 #### Favorite Superhero
-[Favorite Super](https://github.com/Gruzzly-bear/C-Sharp-Coding-Projects/tree/master/Fav_super)
+- [Favorite Super](https://github.com/Gruzzly-bear/C-Sharp-Coding-Projects/tree/master/Fav_super)
 
 ##### POST person
 
